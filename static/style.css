@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url("rain2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    text-align: center;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+div.fill{
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+}
+form#city_form{
+    margin: 40px;
+}
+input#city
+{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#submit{
+    width: 100px;
+    padding: 2px;
+    cursor: pointer;
+}
+div#output{
+    display: none;
+    width: 450px;
+    margin: 50px auto 0px auto;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+}
+div.Location{
+    text-align: center;
+    font-size: 30px;
+}
+div.parent{
+    display: flex;
+    justify-content: space-between;
+}
+div.temp{
+    font-size: 80px;
+}
+div.condition{
+    font-size: 40px;
+    color:rgba(149, 252, 212, 0.75)
+}
+div.time{
+    font-size: 20px;
+}
